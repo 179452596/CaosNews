@@ -20,6 +20,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    #pps de terceros
+    'bootstrap4',
+    'crispy_forms',
+    #Django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -29,6 +33,8 @@ INSTALLED_APPS = [
     #MIS APPS
     'core'
 ]
+
+CRISPY_TEMPLATE_PACK ='bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
