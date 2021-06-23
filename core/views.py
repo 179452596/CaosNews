@@ -35,3 +35,9 @@ def listarnoticias(request):
     }
 
     return render(request, 'core/listarnoticias.html',datos)
+
+def usuarioPeriodista(request):
+    return render(request, 'core/usiarioPeriodista.html')
+
+def SubirNoticia(request):
+    return render(request, 'core/SubirNoticia.html')

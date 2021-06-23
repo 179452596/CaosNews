@@ -18,5 +18,7 @@ urlpatterns = [
     path('Noticias/',Noticias, name="Noticias"),
     path('Periodistas/',Periodistas, name="Periodistas"),
     path('usuario/',usuario, name="usuario"),
-    path('noticia/listar',listarnoticias, name="listarnoticias")
+    path('noticia/listar',listarnoticias, name="listarnoticias"),
+    path('usuarioPeriodista/',usuarioPeriodista, name="usuarioPeriodista"),
+    path('Noticias/subir',SubirNoticia, name="SubirNoticia")
 ]
